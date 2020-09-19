@@ -1,1 +1,132 @@
-{"minVersion":"0.1","headerImage":"https://repo.conorthedev.me/assets/me.conorthedev.peep/banner.png","tintColor":"#bce9fd","tabs":[{"tabname":"Details","views":[{"class":"DepictionScreenshotsView","screenshots":[{"url":"https://repo.conorthedev.me/assets/me.conorthedev.peep/screenshot/01.png","accessibilityText":"Screenshot"},{"url":"https://repo.conorthedev.me/assets/me.conorthedev.peep/screenshot/03.png","accessibilityText":"Screenshot"},{"url":"https://repo.conorthedev.me/assets/me.conorthedev.peep/screenshot/02.png","accessibilityText":"Screenshot"}],"itemCornerRadius":8,"itemSize":"{185,400}"},{"markdown":"**peep is a tweak that allows you to temporarily hide your status bar by tapping on it.**\n- peep supports hiding in apps, on the lockscreen and on the homescreen seperately!\n\nThe settings instantly apply *without* the need to respring your device, but if you do respring, your status bar state will be saved!\n\n**Current preferences options**:\n- Enable / Disable\n- Use Animations\n\n**Notes:**\n- peep is [open source](https://github.com/cbyrne/peep), be sure to check out the code if you're interested.\n- If you have an issue, [create an issue here](https://github.com/cbyrne/peep/issues/new).","useSpacing":"true","class":"DepictionMarkdownView"},{"class":"DepictionSpacerView"},{"class":"DepictionHeaderView","title":"Information"},{"class":"DepictionTableTextView","title":"Developer","text":"ConorTheDev"},{"class":"DepictionTableTextView","title":"Version","text":"2.0.1"},{"class":"DepictionTableTextView","title":"Compatibility","text":"iOS 11.0 to 13.5"},{"class":"DepictionTableTextView","title":"Section","text":"Tweaks"},{"class":"DepictionSpacerView"},{"class":"DepictionTableButtonView","title":"View Source Code","action":"https://github.com/cbyrne/peep","openExternal":"true","tintColor":"#bce9fd"},{"class":"DepictionSpacerView"},{"class":"DepictionTableButtonView","title":"Contact Support","action":"depiction-https://repo.conorthedev.me/depiction/native/help/me.conorthedev.peep.json","openExternal":"true","tintColor":"#bce9fd"},{"class":"DepictionLabelView","text":"","textColor":"#999999","fontSize":"10.0","alignment":1}],"class":"DepictionStackView"},{"tabname":"Changelog","views":[{"class":"DepictionMarkdownView","markdown":"#### Version 1.0.2\n\n- Peep is now stable!\n- Reduce tweak conflicts by appending peep_ to all ``%new`` methods"},{"class":"DepictionMarkdownView","markdown":"#### Version 2.0\n\n- Add official support for hiding inside of apps\n- Add the ability to hide on the lockscreen and show on the homescreen and vice versa\n- General bug fixes and performance improvements\n- Official iOS 11 support"},{"class":"DepictionMarkdownView","markdown":"#### Version 2.0.1\n\n- Fix preferences not loading\n- Add number of taps option\n- Fix 'cached' status bar showing on lock screen sometimes\n    - Thanks [@ItsNicho1as](https://twitter.com/ItsNicho1as) for the help"},{"class":"DepictionLabelView","text":"","textColor":"#999999","fontSize":"10.0","alignment":1}],"class":"DepictionStackView"}],"class":"DepictionTabView"}
+{
+  "minVersion": "0.1",
+  "headerImage": "https://repo.conorthedev.me/assets/me.conorthedev.peep/banner.png",
+  "tintColor": "#bce9fd",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+{
+        "class": "DepictionStackView",
+        "backgroundColor": "#dd3333",
+        "views": [
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "<style>sm{display:block;color:transparent}</style><sm>.</sm><b>Heads up!</b> This is an archive of the original repo. Nothing here will be updated.<sm>.</sm>",
+                "useRawFormat": 1
+            }
+        ]
+      },
+      {
+      "class": "DepictionSpacerView",
+      "spacing": 5
+      },
+        {
+          "class": "DepictionScreenshotsView",
+          "screenshots": [
+            {
+              "url": "https://repo.conorthedev.me/assets/me.conorthedev.peep/screenshot/01.png",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "url": "https://repo.conorthedev.me/assets/me.conorthedev.peep/screenshot/03.png",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "url": "https://repo.conorthedev.me/assets/me.conorthedev.peep/screenshot/02.png",
+              "accessibilityText": "Screenshot"
+            }
+          ],
+          "itemCornerRadius": 8,
+          "itemSize": "{185,400}"
+        },
+        {
+          "markdown": "**peep is a tweak that allows you to temporarily hide your status bar by tapping on it.**\n- peep supports hiding in apps, on the lockscreen and on the homescreen seperately!\n\nThe settings instantly apply *without* the need to respring your device, but if you do respring, your status bar state will be saved!\n\n**Current preferences options**:\n- Enable / Disable\n- Use Animations\n\n**Notes:**\n- peep is [open source](https://github.com/cbyrne/peep), be sure to check out the code if you're interested.\n- If you have an issue, [create an issue here](https://github.com/cbyrne/peep/issues/new).",
+          "useSpacing": "true",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "ConorTheDev"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "2.0.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 11.0 to 13.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Section",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "View Source Code",
+          "action": "https://github.com/cbyrne/peep",
+          "openExternal": "true",
+          "tintColor": "#bce9fd"
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Contact Support",
+          "action": "depiction-https://repo.conorthedev.me/depiction/native/help/me.conorthedev.peep.json",
+          "openExternal": "true",
+          "tintColor": "#bce9fd"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "",
+          "textColor": "#999999",
+          "fontSize": "10.0",
+          "alignment": 1
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### Version 1.0.2\n\n- Peep is now stable!\n- Reduce tweak conflicts by appending peep_ to all ``%new`` methods"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### Version 2.0\n\n- Add official support for hiding inside of apps\n- Add the ability to hide on the lockscreen and show on the homescreen and vice versa\n- General bug fixes and performance improvements\n- Official iOS 11 support"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### Version 2.0.1\n\n- Fix preferences not loading\n- Add number of taps option\n- Fix 'cached' status bar showing on lock screen sometimes\n    - Thanks [@ItsNicho1as](https://twitter.com/ItsNicho1as) for the help"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "",
+          "textColor": "#999999",
+          "fontSize": "10.0",
+          "alignment": 1
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
