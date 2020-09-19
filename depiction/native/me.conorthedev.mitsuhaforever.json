@@ -1,1 +1,132 @@
-{"minVersion":"0.1","headerImage":"https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/banner.png","tintColor":"#ee635c","tabs":[{"tabname":"Details","views":[{"class":"DepictionScreenshotsView","screenshots":[{"url":"https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/screenshot/01.PNG","accessibilityText":"Screenshot"},{"url":"https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/screenshot/03.PNG","accessibilityText":"Screenshot"},{"url":"https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/screenshot/02.PNG","accessibilityText":"Screenshot"},{"url":"https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/screenshot/04.PNG","accessibilityText":"Screenshot"}],"itemCornerRadius":8,"itemSize":"{185,400}"},{"markdown":"Mitsuha Forever is an audio visualizer for iOS.\n\nIt is an updated version of Nepeta's Tweak 'Mitsuha Infinity', which she ceased development on when she left the community.\n\nMitsuha Forever contains updates to add iOS 13 support + stability fixes.\n\n**Notes:**\n- Mitsuha Forever is [open source](https://github.com/cbyrne/MitsuhaForever), be sure to check out the code if you're interested.\n- If you have an issue, [create an issue here](https://github.com/cbyrne/MitsuhaForever/issues/new).","useSpacing":"true","class":"DepictionMarkdownView"},{"class":"DepictionSpacerView"},{"class":"DepictionHeaderView","title":"Information"},{"class":"DepictionTableTextView","title":"Developer","text":"ConorTheDev"},{"class":"DepictionTableTextView","title":"Version","text":"1.2.3"},{"class":"DepictionTableTextView","title":"Compatibility","text":"iOS 12.0 to 13.5"},{"class":"DepictionTableTextView","title":"Section","text":"Tweaks"},{"class":"DepictionSpacerView"},{"class":"DepictionTableButtonView","title":"View Source Code","action":"https://github.com/cbyrne/MitsuhaForever","openExternal":"true","tintColor":"#ee635c"},{"class":"DepictionSpacerView"},{"class":"DepictionTableButtonView","title":"Contact Support","action":"depiction-https://repo.conorthedev.me/depiction/native/help/me.conorthedev.mitsuhaforever.json","openExternal":"true","tintColor":"#ee635c"},{"class":"DepictionLabelView","text":"","textColor":"#999999","fontSize":"10.0","alignment":1}],"class":"DepictionStackView"},{"tabname":"Changelog","views":[{"class":"DepictionMarkdownView","markdown":"#### Version 1.2.2\n\n- Fix crashes\n- Add custom colour support\n- Add experimental ColorFlow 5 support\n- Add Flow support\n- General performance and bug fixes"},{"class":"DepictionMarkdownView","markdown":"#### Version 1.2.3\n\n- Fix apple music without colorflow not working"},{"class":"DepictionLabelView","text":"","textColor":"#999999","fontSize":"10.0","alignment":1}],"class":"DepictionStackView"}],"class":"DepictionTabView"}
+{
+  "minVersion": "0.1",
+  "headerImage": "https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/banner.png",
+  "tintColor": "#ee635c",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+{
+        "class": "DepictionStackView",
+        "backgroundColor": "#dd3333",
+        "views": [
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "<style>sm{display:block;color:transparent}</style><sm>.</sm><b>Heads up!</b> This is an archive of the original repo. Nothing here will be updated.<sm>.</sm>",
+                "useRawFormat": 1
+            }
+        ]
+      },
+      {
+      "class": "DepictionSpacerView",
+      "spacing": 5
+      },
+        {
+          "class": "DepictionScreenshotsView",
+          "screenshots": [
+            {
+              "url": "https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/screenshot/01.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "url": "https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/screenshot/03.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "url": "https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/screenshot/02.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "url": "https://repo.conorthedev.me/assets/me.conorthedev.mitsuhaforever/screenshot/04.PNG",
+              "accessibilityText": "Screenshot"
+            }
+          ],
+          "itemCornerRadius": 8,
+          "itemSize": "{185,400}"
+        },
+        {
+          "markdown": "Mitsuha Forever is an audio visualizer for iOS.\n\nIt is an updated version of Nepeta's Tweak 'Mitsuha Infinity', which she ceased development on when she left the community.\n\nMitsuha Forever contains updates to add iOS 13 support + stability fixes.\n\n**Notes:**\n- Mitsuha Forever is [open source](https://github.com/cbyrne/MitsuhaForever), be sure to check out the code if you're interested.\n- If you have an issue, [create an issue here](https://github.com/cbyrne/MitsuhaForever/issues/new).",
+          "useSpacing": "true",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "ConorTheDev"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.2.3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 12.0 to 13.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Section",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "View Source Code",
+          "action": "https://github.com/cbyrne/MitsuhaForever",
+          "openExternal": "true",
+          "tintColor": "#ee635c"
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Contact Support",
+          "action": "depiction-https://repo.conorthedev.me/depiction/native/help/me.conorthedev.mitsuhaforever.json",
+          "openExternal": "true",
+          "tintColor": "#ee635c"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "",
+          "textColor": "#999999",
+          "fontSize": "10.0",
+          "alignment": 1
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### Version 1.2.2\n\n- Fix crashes\n- Add custom colour support\n- Add experimental ColorFlow 5 support\n- Add Flow support\n- General performance and bug fixes"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### Version 1.2.3\n\n- Fix apple music without colorflow not working"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "",
+          "textColor": "#999999",
+          "fontSize": "10.0",
+          "alignment": 1
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
