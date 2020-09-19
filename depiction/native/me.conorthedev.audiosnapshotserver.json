@@ -1,1 +1,111 @@
-{"minVersion":"0.1","headerImage":"https://repo.conorthedev.me/assets/me.conorthedev.audiosnapshotserver/banner.png","tintColor":"#ee635c","tabs":[{"tabname":"Details","views":[{"class":"HiddenDepictionScreenshotsView","screenshots":[],"itemCornerRadius":8,"itemSize":null},{"markdown":"*Where do you get the audio data for your visualizer? I pull it out of my ASS.*\n\nThis is a modified verison of Nepeta's ASS (AudioSnapshotServer), which is a TCP/IP server to fetch audio buffer's snapshot from mediaserverd.\n\n**This tweak by itself does nothing noticeable. A client tweak is neccessary for visible effects - try [Mitsuha Forever](https://github.com/ConorTheDev/MitsuhaForever/)**\n\n**Notes:**\n- AudioSnapshotServer is [open source](https://github.com/cbyrne/AudioSnapshotServer), be sure to check out the code if you're interested.\n- If you have an issue, [create an issue here](https://github.com/cbyrne/AudioSnapshotServer/new).","useSpacing":"true","class":"DepictionMarkdownView"},{"class":"DepictionSpacerView"},{"class":"DepictionHeaderView","title":"Information"},{"class":"DepictionTableTextView","title":"Developer","text":"ConorTheDev"},{"class":"DepictionTableTextView","title":"Version","text":"2.0"},{"class":"DepictionTableTextView","title":"Compatibility","text":"iOS 12.0 to 13.5"},{"class":"DepictionTableTextView","title":"Section","text":"Development"},{"class":"DepictionSpacerView"},{"class":"DepictionTableButtonView","title":"View Source Code","action":"https://github.com/cbyrne/AudioSnapshotServer","openExternal":"true","tintColor":"#ee635c"},{"class":"DepictionSpacerView"},{"class":"DepictionTableButtonView","title":"Contact Support","action":"depiction-https://repo.conorthedev.me/depiction/native/help/me.conorthedev.audiosnapshotserver.json","openExternal":"true","tintColor":"#ee635c"},{"class":"DepictionLabelView","text":"","textColor":"#999999","fontSize":"10.0","alignment":1}],"class":"DepictionStackView"},{"tabname":"Changelog","views":[{"class":"DepictionMarkdownView","markdown":"#### Version 2.0\n\nFix common crashes / instabilities"},{"class":"DepictionLabelView","text":"","textColor":"#999999","fontSize":"10.0","alignment":1}],"class":"DepictionStackView"}],"class":"DepictionTabView"}
+{
+  "minVersion": "0.1",
+  "headerImage": "https://repo.conorthedev.me/assets/me.conorthedev.audiosnapshotserver/banner.png",
+  "tintColor": "#ee635c",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+          {
+            "class": "DepictionStackView",
+            "backgroundColor": "#dd3333",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>sm{display:block;color:transparent}</style><sm>.</sm><b>Heads up!</b> This is an archive of the original repo. Nothing here will be updated.<sm>.</sm>",
+                    "useRawFormat": 1
+                }
+            ]
+          },
+          {
+          "class": "DepictionSpacerView",
+          "spacing": 5
+          },
+        {
+          "class": "HiddenDepictionScreenshotsView",
+          "screenshots": [],
+          "itemCornerRadius": 8,
+          "itemSize": null
+        },
+        {
+          "markdown": "*Where do you get the audio data for your visualizer? I pull it out of my ASS.*\n\nThis is a modified verison of Nepeta's ASS (AudioSnapshotServer), which is a TCP/IP server to fetch audio buffer's snapshot from mediaserverd.\n\n**This tweak by itself does nothing noticeable. A client tweak is neccessary for visible effects - try [Mitsuha Forever](https://github.com/ConorTheDev/MitsuhaForever/)**\n\n**Notes:**\n- AudioSnapshotServer is [open source](https://github.com/cbyrne/AudioSnapshotServer), be sure to check out the code if you're interested.\n- If you have an issue, [create an issue here](https://github.com/cbyrne/AudioSnapshotServer/new).",
+          "useSpacing": "true",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "ConorTheDev"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "2.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 12.0 to 13.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Section",
+          "text": "Development"
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "View Source Code",
+          "action": "https://github.com/cbyrne/AudioSnapshotServer",
+          "openExternal": "true",
+          "tintColor": "#ee635c"
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Contact Support",
+          "action": "depiction-https://repo.conorthedev.me/depiction/native/help/me.conorthedev.audiosnapshotserver.json",
+          "openExternal": "true",
+          "tintColor": "#ee635c"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "",
+          "textColor": "#999999",
+          "fontSize": "10.0",
+          "alignment": 1
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### Version 2.0\n\nFix common crashes / instabilities"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "",
+          "textColor": "#999999",
+          "fontSize": "10.0",
+          "alignment": 1
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
